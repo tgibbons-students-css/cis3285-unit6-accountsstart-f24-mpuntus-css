@@ -57,7 +57,7 @@ namespace Services
         {
 
             AccountBase acc = FindAccount(accountName);
-            acc.AddTransaction(-amount);
+            acc.SubtractTransaction(amount);
             //throw new NotImplementedException();
 
 
